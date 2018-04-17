@@ -1,4 +1,5 @@
 {
+	"name": "vue-template-classic",
 	"type": "vue",
 	"title": "vue标准模板",
 	"version": "0.0.1",
