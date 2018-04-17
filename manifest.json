@@ -2,7 +2,6 @@
 	"name": "vue-template-classic",
 	"type": "vue",
 	"title": "vue标准模板",
-	"version": "0.0.1",
 	"desc": "包含vue, vux, webpack, leancloud",
 	"snapshot": "https://img.alicdn.com/tfs/TB1tnAWdHSYBuNjSspiXXXNzpXa-1920-1080.png"
 }
