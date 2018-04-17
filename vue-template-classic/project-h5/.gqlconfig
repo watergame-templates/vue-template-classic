@@ -1,0 +1,23 @@
+/* .gqlconfig */
+{
+  schema: {
+    files: "leanSchema.gql"
+  },
+  query: {
+    files: [ /* define file paths which you'd like the gql parser to watch and give autocomplete suggestions for */
+      {
+        match: 'src/**/*.js', // for js
+        parser: ['EmbeddedQueryParser', { startTag: 'Relay\\.QL`', endTag: '`' }],
+         isRelay: true,
+      },
+      {
+        match: 'src/**/*.vue', // for vue
+        parser: ['EmbeddedQueryParser', { startTag: 'gqlFetch\\(`', endTag: '`\\)' }],
+      },
+      {
+        match: 'fixtures/**/*.gql',
+        parser: 'QueryParser',
+      },
+    ],
+  },
+}

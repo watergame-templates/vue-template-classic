@@ -1,0 +1,28 @@
+{
+  "author": "wangyx",
+  "name": "地址管理",
+  "desc": "",
+  "code": "address_ecv4",
+  "version": "",
+  "jira": "EC-12",
+  "type": "vue_blank",
+  "metaData": {
+    "phoneLogin": false,
+    "wxLogin": true,
+    "router_path": "",
+    "router_keepAlive": true,
+    "router_params": []
+  },
+  "testData": {},
+  "cfg": {
+    "title": "",
+    "renderConfig": {},
+    "wxShareConfig": {
+      "enable": true,
+      "title": "",
+      "desc": "",
+      "link": "",
+      "imgUrl": ""
+    }
+  }
+}

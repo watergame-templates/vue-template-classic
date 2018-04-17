@@ -1,0 +1,56 @@
+.user_info{
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100vw;
+  }
+
+  .contain{
+    box-sizing: border-box;
+    padding-top:46px;
+    text-align: left;
+    padding-bottom: 46px;
+    .maingrup{
+      .weui-cells{
+        &:before{
+          border-top: none;
+        }
+        &:after{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .sub-group{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .sub-group-cell{
+    &:before{
+      border-top: none;
+    }
+    &:after{
+      border-bottom: none;
+    }
+    .subBox{
+      margin: 15px;
+    }
+  }
+  .main-item{
+    &:after{
+      // transform: translate(15px);
+      // width: 95vw;
+    }
+  }
+  .sub{
+    position: fixed;
+    height: 46px;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}

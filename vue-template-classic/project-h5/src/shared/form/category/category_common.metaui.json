@@ -1,0 +1,167 @@
+{
+    "author": "wangyy",
+    "name": "EC-分类页",
+    "desc": "",
+    "code": "category_common",
+    "version": "",
+    "jira": "EC-8",
+    "type": "vue_blank",
+    "testData": {
+        "categoryData": [
+            {
+                "code": "",
+                "name": "健康家居",
+                "children": [
+                    {
+                        "code": "",
+                        "name": "健康厨电",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/2775faf986bb4dfef04f"
+                    },
+                    {
+                        "code": "",
+                        "name": "健身仪器",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/57259a681dd72980b50c"
+                    },
+                    {
+                        "code": "",
+                        "name": "健康家电",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/048b718372957f535590"
+                    },
+                    {
+                        "code": "",
+                        "name": "健康监测",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/e5ac58ba5bcff4c09689"
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "name": "联众大药房",
+                "children": [
+                    {
+                        "code": "",
+                        "name": "滋补品",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/3de8643bc01eb70f7271"
+                    },
+                    {
+                        "code": "",
+                        "name": "营养品",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/34988b58b8dfd95e84f1"
+                    },
+                    {
+                        "code": "",
+                        "name": "保健品",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/07bc7903b0c817adf9fe"
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "name": "健康母婴",
+                "children": [
+                    {
+                        "code": "",
+                        "name": "妈咪专区",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/bf51ece9fdddd831ff70"
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "name": "健康食养",
+                "children": [
+                    {
+                        "code": "",
+                        "name": "食用油",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/52439a97251a9729e9c2"
+                    },
+                    {
+                        "code": "",
+                        "name": "米面杂粮",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/727baf8d36a166626e31"
+                    },
+                    {
+                        "code": "",
+                        "name": "健康食材",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/886921711151f4de4879"
+                    },
+                    {
+                        "code": "",
+                        "name": "休闲零食",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/b2df584cb8901ee778a5"
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "name": "尊贵酒茶",
+                "children": [
+                    {
+                        "code": "",
+                        "name": "饮用水",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/ef7e4605d90981841b84"
+                    },
+                    {
+                        "code": "",
+                        "name": "饮品",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/1ff6c960aec4f35a14f1"
+                    },
+                    {
+                        "code": "",
+                        "name": "茶",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/24952b341c8af25e96ce"
+                    },
+                    {
+                        "code": "",
+                        "name": "酒",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/e94f166625d14e977b89"
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "name": "美丽超市",
+                "children": [
+                    {
+                        "code": "",
+                        "name": "女性护理",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/9cc47f62707baf6d0823"
+                    },
+                    {
+                        "code": "",
+                        "name": "身体护理",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/a20bf612c08c3c5f7932"
+                    },
+                    {
+                        "code": "",
+                        "name": "洗发护发",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/f6c585c2d64c469417de"
+                    },
+                    {
+                        "code": "",
+                        "name": "面部护理",
+                        "img_url": "http://ac-5dPGMHoF.clouddn.com/060ab1e07155462467c4"
+                    }
+                ]
+            }
+        ]
+    },
+    "cfg": {
+        "renderConfig": {},
+        "wxShareConfig": {
+            "title": "",
+            "desc": "",
+            "link": "",
+            "imgUrl": "",
+            "enable": true
+        },
+        "title": ""
+    },
+    "metaData": {
+        "phoneLogin": "",
+        "wxLogin": false,
+        "router_path": "",
+        "router_keepAlive": true,
+        "router_params": []
+    }
+}

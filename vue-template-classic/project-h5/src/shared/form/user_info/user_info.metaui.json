@@ -1,0 +1,28 @@
+{
+  "author": "limt",
+  "name": "个人资料",
+  "desc": "公共个人资料页",
+  "code": "user_info",
+  "version": "v4",
+  "jira": "CXP-5",
+  "type": "",
+  "metaData": {
+    "phoneLogin": false,
+    "wxLogin": true,
+    "router_path": "",
+    "router_keepAlive": false,
+    "router_params": []
+  },
+  "testData": {},
+  "cfg": {
+    "title": false,
+    "renderConfig": {},
+    "wxShareConfig": {
+      "enable": false,
+      "title": "",
+      "desc": "",
+      "link": "",
+      "imgUrl": ""
+    }
+  }
+}

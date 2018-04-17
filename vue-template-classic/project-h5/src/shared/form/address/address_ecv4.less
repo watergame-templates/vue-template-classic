@@ -1,0 +1,74 @@
+.address {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.addressList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .addressInfo {
+        text-align: left;
+        margin-bottom: .1rem;
+        .addressHandle {
+            box-sizing: border-box;
+            padding: .09rem .1rem;
+            border-top: .01rem;
+            border-bottom: .01rem;
+            border-style: solid;
+            border-color: #f0f0f0;
+            background-color: #fff;
+            width: 100%;
+            height: .4rem;
+            .leftHandle {
+                float: left;
+                &>div {
+                    float: left;
+                    font-size: .13rem;
+                    line-height: .2rem;
+                    color: #999999;
+                }
+                .defaultActivat {
+                    &>span {
+                        color: #f00;
+                    }
+                }
+            }
+            .rightHandle {
+                float: right;
+                margin-right: .1rem;
+                &>div {
+                    width: .6rem;
+                    height: .2rem;
+                    float: right;
+                    font-size: .14rem;
+                    left: .2rem;
+                    text-align: right;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: .48rem;
+    color: #fff;
+    box-sizing: border-box;
+    padding: .1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    .addAddress {
+        width: 100%;
+        height: 100%;
+        background-color: #f00;
+        font-size: .14rem;
+        font-weight: bold;
+        line-height: .28rem;
+    }
+}

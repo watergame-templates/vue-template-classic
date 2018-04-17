@@ -1,0 +1,28 @@
+{
+  "author": "limt",
+  "name": "注销页",
+  "desc": "空白的注销页",
+  "code": "log_out",
+  "version": "v4",
+  "jira": "CXP-5",
+  "type": "",
+  "metaData": {
+    "phoneLogin": false,
+    "wxLogin": false,
+    "router_path": "",
+    "router_keepAlive": false,
+    "router_params": []
+  },
+  "testData": {},
+  "cfg": {
+    "title": false,
+    "renderConfig": {},
+    "wxShareConfig": {
+      "enable": false,
+      "title": "",
+      "desc": "",
+      "link": "",
+      "imgUrl": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "author": "wangyx",
+  "name": "新建收货人",
+  "desc": "",
+  "code": "address_add_ecv4",
+  "version": "",
+  "jira": "EC-12",
+  "type": "vue_blank",
+  "metaData": {
+    "phoneLogin": false,
+    "wxLogin": true,
+    "router_path": "",
+    "router_keepAlive": false,
+    "router_params": []
+  },
+  "testData": {},
+  "cfg": {
+    "title": "",
+    "renderConfig": {},
+    "wxShareConfig": {
+      "enable": true,
+      "title": "",
+      "desc": "",
+      "link": "",
+      "imgUrl": ""
+    }
+  }
+}

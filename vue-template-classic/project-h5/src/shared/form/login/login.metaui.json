@@ -1,0 +1,28 @@
+{
+  "author": "limt",
+  "name": "登录",
+  "desc": "公共登录页",
+  "code": "login_common",
+  "version": "v4",
+  "jira": "PL-8",
+  "type": "",
+  "metaData": {
+    "phoneLogin": false,
+    "wxLogin": false,
+    "router_path": "",
+    "router_keepAlive": false,
+    "router_params": []
+  },
+  "testData": {},
+  "cfg": {
+    "title": false,
+    "renderConfig": {},
+    "wxShareConfig": {
+      "enable": false,
+      "title": "",
+      "desc": "",
+      "link": "",
+      "imgUrl": ""
+    }
+  }
+}

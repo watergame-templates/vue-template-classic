@@ -1,0 +1,28 @@
+{
+  "author": "limt",
+  "name": "wx登录跳转",
+  "desc": "wx登录跳转页",
+  "code": "login_wx",
+  "version": "v4",
+  "jira": "CXP-5",
+  "type": "",
+  "metaData": {
+    "phoneLogin": false,
+    "wxLogin": true,
+    "router_path": "",
+    "router_keepAlive": false,
+    "router_params": []
+  },
+  "testData": {},
+  "cfg": {
+    "title": false,
+    "renderConfig": {},
+    "wxShareConfig": {
+      "enable": false,
+      "title": "",
+      "desc": "",
+      "link": "",
+      "imgUrl": ""
+    }
+  }
+}

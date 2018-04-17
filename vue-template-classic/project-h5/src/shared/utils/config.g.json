@@ -1,0 +1,14 @@
+{
+  "prj": "[%=code%]",
+  "project_build_type_comment": "打包类型wx:微信 app:Cordova APP web:Web(保留)",
+  "project_build_type": "wx",
+  "lean_url": "etogether.leanapp.cn",
+  "lean_app_id": "5dPGMHoFU57CCsl41B9qNBm2-gzGzoHsz",
+  "lean_app_key": "nDDE7yWX4NdencQFV7pQCOEX",
+  "lean_debug_comment": "是否开启leancloud debug模式",
+  "lean_debug": false,
+  "lean_stg_comment": "1:生产环境 0:预备环境",
+  "lean_stg": 1,
+  "wx_app_id_pub_comment": "微信公众号appId",
+  "wx_app_id_pub": "wx5dde7cd8ae3876a4"
+}

@@ -1,0 +1,1 @@
+[%= $imports.stringify(uilist.filter(i => i.metaData.router_keepAlive).map(i => i.code)) %]
